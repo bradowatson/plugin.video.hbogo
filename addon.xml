@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hbogo" name="HBOGo" version="1.0" provider-name="insane822, bradwatson">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>windx osx linux</platform>
+        <summary lang="en">HBO Go - Unofficial HBO Go add on</summary>
+        <language></language>
+        <description lang="en">HBO Go - Unofficial HBO Go add on</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <email>brad.s.watson at gmail dot com</email>
+        <website>http://www.hbogo.com</website>
+    </extension>
+</addon>

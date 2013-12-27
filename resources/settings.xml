@@ -1,0 +1,19 @@
+<settings>
+    <category label="30201">
+        <setting id="username" type="text" label="Email" default=""/>
+        <setting id="password" type="text" option="hidden" label="Password" default="" />
+        <setting id="zipcode" type="text" label="Zipcode" default="" />
+        <setting id="provider" type="enum" label="Provider" values="astound|att|atlantic_broadband|atmc|bend|blue_ridge|bright_house|buckeye|burlington|cable_one|centrylink|charter|cincinnati|comcast|cox|directv|directv_pr|dish|easton|epb_fiber_optics|gci|grande|gvtc|hawaiian|hbc|home_telecom|home_town_cable|hotwire|htc|insight|jea|long_limes|lus|massillon|mediacom|metrocast|mi_connection|midcontinent|nex_tech|openband|optimum|rcn|service_electric_broadband|service_electric_cable_tv|service_electric_cablevision|suddenlink|timewarner|verizon|wave|wow" default="0"/>
+    </category>
+    <category label="30202">
+        <setting label="Delete Cache" type="action" action="RunPlugin(plugin://plugin.video.hbogo/?mode=deleteCache)"/>
+        <setting label="Delete Cookies" type="action" action="RunPlugin(plugin://plugin.video.hbogo/?mode=deleteCookies)"/>
+        <setting type="sep" />
+        <setting id="useUtility" type="bool" label="Use Control Utility (Windows)" default="true"/>
+        <setting label="Configure Control Utility" type="action" enable="eq(-1,true)" action="RunPlugin(plugin://plugin.video.hbogo/?mode=configureUtility)"/>
+        <setting type="sep" />
+        <setting id="dontUseKiosk" type="bool" label="Chrome: Don't use kiosk mode" default="false"/>
+        <setting id="winBrowserNew" type="enum" label="Windows Browser" values="Chrome|IExplorer" default="0"/>
+        <setting id="osxBrowser" type="enum" label="OSX Browser" values="Chrome|Safari" default="0"/>
+    </category>
+</settings>

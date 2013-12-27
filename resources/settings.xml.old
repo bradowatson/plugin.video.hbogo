@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+  <setting label="Stream Quality" type="enum" id="quality" values="High|Medium|Low" default="0"/>
+
+</settings>
